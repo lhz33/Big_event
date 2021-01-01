@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/assets/images/login_bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.login_hd {
+    height: 60px;
+    background: #fff url(/assets/images/login_title.png) no-repeat center;
+}
+
+
+/* 表单 */
+
+.layui-form {
+    padding: 0 30px;
+}
+
+.reg_box {
+    display: none;
+}
+
+
+/* r让a链接靠右对齐 */
+
+.layui-form-item {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+
+/* 小图标 */
+
+.layui-form-item .layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.layui-input {
+    padding-left: 32px;
+}
